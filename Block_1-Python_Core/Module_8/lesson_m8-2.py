@@ -12,6 +12,84 @@
 #     print(f"{i} answers:\n{d[i][0]}")
 #
 
+#############################################
+#
+# from collections import namedtuple
+# # person = tuple([1, 2])
+# # print(person)
+# Person = namedtuple('Person', ['name', 'age'])
+# person = Person("Masha", 18)
+# person = Person("Vasya", 21)
+# print(person)
+# print(person.name)
+# print(person.age)
+#
+#############################################
+# from collections import Counter, defaultdict, OrderedDict
+# d = {}
+# s = "qwerty 1234 qwerty"
+# print(s)
+# # d = dict(Counter(s))
+# # print(d)
+#
+#
+# # for i in s:
+# #     if i in d.keys():
+# #         d[i] += 1
+# #     else:
+# #         d[i] = 1
+#
+#
+# # d = defaultdict(int)
+# # for i in s:
+# #     d[i] += 1
+# # print(dict(d))
+#
+#
+# for i in s:
+#     d[i] = 1
+# d['q'] = 2
+# print(d)
+#
+# d2 = OrderedDict()
+# for i in s:
+#     d2[i] = 1
+# d2['q'] = 2
+# print(d)
+#
+
+##############################################
+
+#from collections import namedtuple, deque
+# import random
+#
+# lastname = ["Ivanov", "Petrov", "Kovalev", "Marchenko", "Dennisov"]
+# Student = namedtuple("Student", ["last_name", "mark"])
+# otlichniki = []
+# for i in range(10):
+#     s = Student(random.choice(lastname) + str(i), random.randint(1, 5))
+#     print(s)
+#     if s.mark >= 4:
+#         otlichniki.append(s.last_name)
+#
+# print(f"Otlichniki: {otlichniki}")
+
+#############################################
+#
+# def isAPalindrom(s):
+#     d = deque(s)
+#     while d:
+#         if len(d) == 1:
+#             return "Yes"
+#         elif d.pop() != d.popleft():
+#             return "No"
+#     return "Yes"
+#
+# print(isAPalindrom("арозаупаланалапуазора"))
+#
+##############################################
+
+
 #
 # from datetime import datetime
 #
@@ -27,7 +105,7 @@
 #
 # get_days_from_today("2021-10-09")
 
-#
+############################################
 # from datetime import date
 # import calendar
 #
@@ -42,6 +120,7 @@
 #
 #
 
+######################################
 # from datetime import datetime
 #
 #
@@ -54,7 +133,7 @@
 #
 # print(get_str_date("2021-05-27 17:08:34.149Z"))
 
-
+##########################################
 #
 # from random import randrange
 #
@@ -74,7 +153,7 @@
 #
 # print(get_numbers_ticket(1, 49, 6))
 #
-#
+###########################################
 # import random
 #
 #
@@ -98,7 +177,7 @@
 #                              }))
 #
 #
-#
+###########################################
 # from decimal import Decimal, getcontext
 # # def decimal_average(number_list, signs_count):
 # #     getcontext().prec = signs_count
@@ -113,6 +192,7 @@
 #
 # print(decimal_average([4.5788689699797, 34.7576578697964, 86.8877666656633, 12], 6))
 
+############################################
 #
 # import collections
 #
@@ -138,6 +218,8 @@
 # #                     Cat(nickname='Simon', age=3, owner='Yura')]))
 
 #
+#################################################
+
 # from collections import Counter
 #
 #
@@ -161,6 +243,7 @@
 #                           '66.50.38.43', '66.50.38.43'])
 #
 #
+###########################################################
 # from collections import deque
 #
 #
@@ -179,7 +262,7 @@
 #
 # print(lifo)
 # push("Bob")
-
+#############################################
 
 from collections import deque
 

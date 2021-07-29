@@ -75,10 +75,6 @@ print(root.left.left.val, end=" ")
 print(root.left.right.val, end=" ")
 print(root.right.right.val)
 
-
-
-
-
 ############################################
 def get_grade(key):
     grade = {"A": 5, "B": 5, "C": 4, "D": 3, "E": 3, "FX": 2, "F": 1}
@@ -195,6 +191,9 @@ def generator_numbers(string=""):
 def sum_profit(string):
     result = [i for i in generator_numbers(string)]
     return sum(result)
+
+############################################
+
 import re
 
 num_list1 = []

@@ -93,7 +93,3 @@ def prepare_data(data):
 
 
 data = [1, 2, 3]
-
-
-
-
